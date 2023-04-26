@@ -1,0 +1,14 @@
+Docs
+
+Player Icon
+	This holds the player's visual representation. Has the following states:
+	Idle:
+		If idle, this object awaits player input. When movement input is recieved, this object will move to the next space. When accepted input is recieved the object will load the current stage. When entering idle state, the next possible directions will show on the object.
+	Moving:
+		This object will move using a LERP function towards the next space. Visual direction helpers are disabled when entering this state. When this object's transform coordinates are equal to the next Level-Space-Object's transform coordinates this object will automatically stop.
+		
+Level-Space
+	This object is one of two space nodes. This object holds data detailing what level should be loaded upon recieving accepted input and what direction the next nodes are.
+
+Go-Space
+	This object is the other space node. Since the Player-Icon moves in a linear direction, upon hitting one of these nodes the direction will change. They hold data on which direction the next space node is. Moving past these nodes is automated.
