@@ -906,6 +906,10 @@ PrefabInstance:
       propertyPath: <ForwardSpaceDirection>k__BackingField
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3228475246045784197, guid: 286499f179d2e3441996fa75492bddc4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3228475246084629501, guid: 286499f179d2e3441996fa75492bddc4, type: 3}
       propertyPath: m_Name
       value: Go-Space
@@ -953,6 +957,18 @@ PrefabInstance:
     - target: {fileID: 3228475246084629502, guid: 286499f179d2e3441996fa75492bddc4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228475246347676636, guid: 286499f179d2e3441996fa75492bddc4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228475247051582623, guid: 286499f179d2e3441996fa75492bddc4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228475247397345532, guid: 286499f179d2e3441996fa75492bddc4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 286499f179d2e3441996fa75492bddc4, type: 3}

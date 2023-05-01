@@ -57,10 +57,10 @@ public class GoSpaceController : SpaceController
                 downArrow.SetActive(true);
                 break;
             case NextDirection.right:
-                leftArrow.SetActive(true);
+                rightArrow.SetActive(true);
                 break;
             case NextDirection.left:
-                rightArrow.SetActive(true);
+                leftArrow.SetActive(true);
                 break;
         }
         switch (BackSpaceDirection)
@@ -72,10 +72,10 @@ public class GoSpaceController : SpaceController
                 downArrow.SetActive(true);
                 break;
             case NextDirection.right:
-                leftArrow.SetActive(true);
+                rightArrow.SetActive(true);
                 break;
             case NextDirection.left:
-                rightArrow.SetActive(true);
+                leftArrow.SetActive(true);
                 break;
         }
     }
