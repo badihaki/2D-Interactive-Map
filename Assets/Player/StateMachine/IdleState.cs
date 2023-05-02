@@ -54,6 +54,11 @@ public class IdleState : PlayerState
                 Debug.Log("going right");
                 Player.PlayerMovementController.SetNextDesiredSpace(thisSpace.nextRightSpace.transform);
             }
+            if (Player.Controls.AcceptanceInput)
+            {
+                thisSpace.LoadLevel();
+                Player.Controls.UseAccept();
+            }
         }
     }
 }

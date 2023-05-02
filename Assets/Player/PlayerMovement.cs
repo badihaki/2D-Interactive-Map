@@ -51,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
             GoSpaceController spaceController = space.GetComponent<GoSpaceController>();
             SetNextDesiredSpace(spaceController.NextSpace.transform);
             spaceController.PassGoSpace();
+            player.ResetIcons();
         }
         elapsedTimeWhileMoving = 0.0f;
     }

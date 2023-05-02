@@ -51,6 +51,7 @@ public class PlayerSpaceController : MonoBehaviour
 
     private void SetCurrentSpaceAsLevel(LevelSpaceConroller space)
     {
+        player.ResetIcons();
         player.StateMachine.ChangeState(player.IdleState);
         if (space.nextTopSpace)
         {

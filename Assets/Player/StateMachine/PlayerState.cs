@@ -18,6 +18,7 @@ public class PlayerState
     {
         enterTime = Time.time;
         isExitingState = false;
+        if (Player.Controls.AcceptanceInput) Player.Controls.UseAccept();
     }
 
     public virtual void ExitState()

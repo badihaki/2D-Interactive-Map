@@ -5,7 +5,6 @@ using UnityEngine;
 public class GM : MonoBehaviour
 {
     [field: SerializeField] public Player Player { get; private set; }
-    [field: SerializeField] public float LevelToLoad { get; private set; }
     public SpaceController startingSpace;
     // Start is called before the first frame update
     void Start()

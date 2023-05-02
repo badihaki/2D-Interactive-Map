@@ -45,10 +45,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14cd317c3939ef04ab705fed44260498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spaceType: 0
   <nextTopSpace>k__BackingField: {fileID: 0}
   <nextBottomSpace>k__BackingField: {fileID: 0}
   <nextLeftSpace>k__BackingField: {fileID: 0}
   <nextRightSpace>k__BackingField: {fileID: 0}
+  <indexOfSceneToLoad>k__BackingField: 0
 --- !u!1 &2646422244053186195
 GameObject:
   m_ObjectHideFlags: 0

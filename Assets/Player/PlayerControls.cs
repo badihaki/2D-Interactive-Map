@@ -31,6 +31,10 @@ public class PlayerControls : MonoBehaviour
     {
         AcceptanceInput = newValue;
     }
+    public void UseAccept()
+    {
+        AcceptanceInput = false;
+    }
 
     private void SetMoveInput(Vector2 newVector)
     {
