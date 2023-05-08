@@ -42,12 +42,3 @@ Drag in 1 Player and 1 GM game object. In the GM game object, assign the startin
 Assign the level indexes for level spaces, and the next and previous spaces for go spaces. Also for go, assign direction for each option.
 
 # Developer Notes
-* New Scene
-* Change cam bg and make ortho
-* Drop Spaces into Heirarchy
-* Drop Player/GM
-* Assign start
-* Assign next spaces
-* Assign go space directions
-* Drop Lines
-* Assign Lines
