@@ -1,5 +1,5 @@
 # 2D-Interactive-Map
- A Mario-3-style 2D map system made in Unity
+ A template for a Mario-3-style map, made with Unity and C#
 
 # Introduction
 I was asked to make a map that emulated some of the functionality from the map from Mario 3. The player will be able to move to different locations, and load into a level. The end-goal was to make it easy for a designer to come in, change the graphics associated for each component and add the name or index of the scenes to load, and have a fully functional map screen up and running in a few minutes. 
